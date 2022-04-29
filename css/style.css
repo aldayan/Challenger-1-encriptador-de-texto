@@ -51,6 +51,7 @@
          font-size: 20px;
          transition: 1s;
          cursor: pointer;
+          background-color: white;
         
      }
      
@@ -67,6 +68,7 @@
          font-size: 20px;
          transition: 1s;
          cursor: pointer;
+          background-color: white;
          
      }
      
@@ -105,11 +107,13 @@
          font-style: italic;
          transition: 1s;
          cursor: pointer;
+          background-color: white;
      }
      
      .botonCopiar:hover {
          background-color: rgb(5, 5, 36);
          color: white;
+          
      }
      
      footer {
