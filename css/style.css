@@ -1,0 +1,175 @@
+     h1 {
+         text-align: center;
+         margin: 20px 0px 40px;
+         font-size: 30px;
+         font-style: italic;
+         transition: 1s;
+     }
+     
+     h1:hover {
+         font-size: 50px;
+     }
+     
+     .formulario {
+         width: 40%;
+         margin: 100px 100px;
+         position: static;
+     }
+     
+     .input-encriptar {
+         margin: 0 1.5px;
+         padding: 30px 80px 100px;
+         width: 70%;
+         text-align: center;
+         border: none;
+         font-size: 30px;
+         font-style: italic;
+         cursor: pointer;
+     }
+     
+     .error {
+         margin: 0 0 70px 50px;
+         font-weight: bold;
+         font-size: 20px;
+         color: red;
+     }
+     
+     .alerta {
+         margin: 150px 0px -160px 100px;
+         font-style: italic;
+         font-weight: bold;
+         transition: 1s;
+     }
+     
+     .botonEncriptar {
+         margin-top: 200px;
+         margin-left: 100px;
+         border: 3px solid black;
+         border-radius: 30px;
+         padding: 20px 40px 20px 40px;
+         font-style: italic;
+         font-size: 20px;
+         transition: 1s;
+         cursor: pointer;
+     }
+     
+     .botonEncriptar:hover {
+         background-color: rgb(5, 5, 36);
+         color: white;
+     }
+     
+     .botonDesencriptar {
+         border: 3px solid black;
+         border-radius: 30px;
+         padding: 20px 40px 20px 40px;
+         font-style: italic;
+         font-size: 20px;
+         transition: 1s;
+         cursor: pointer;
+     }
+     
+     .botonDesencriptar:hover {
+         background-color: rgb(5, 5, 36);
+         color: white;
+     }
+     
+     .formulario2 {
+         width: 40%;
+         margin: -400px 700px;
+         box-sizing: border-box;
+     }
+     
+     .input-encriptador {
+         display: block;
+         margin-top: -500px;
+         padding: 30px 80px 100px;
+         width: 70%;
+         text-align: center;
+         border: none;
+         font-size: 30px;
+         font-style: italic;
+         cursor: pointer;
+         background: transparent;
+     }
+     
+     .botonCopiar {
+         margin-top: 125px;
+         margin-left: 200px;
+         box-sizing: border-box;
+         border: 3px solid black;
+         border-radius: 30px;
+         padding: 20px 40px 20px 40px;
+         font-size: 20px;
+         font-style: italic;
+         transition: 1s;
+         cursor: pointer;
+     }
+     
+     .botonCopiar:hover {
+         background-color: rgb(5, 5, 36);
+         color: white;
+     }
+     
+     footer {
+         text-align: center;
+         padding: 40px;
+         margin-top: 425px;
+         font-weight: bold;
+         font-style: italic;
+         background-color: rgb(212, 209, 209);
+     }
+     
+     footer p:hover {
+         font-size: 20px;
+         transition: 1s;
+     }
+     
+     a img {
+         margin: 20px 0;
+     }
+     
+     a img:hover {
+         box-shadow: 10px 10px 30px 15px rgb(153, 149, 149);
+     }
+     /*diseño responsive*/
+     
+     @media screen and (max-width: 480px) {
+         h1 {
+             text-align: center;
+         }
+         .formulario {
+             position: relative;
+             width: auto;
+             margin: auto;
+         }
+         .input-encriptar {
+             width: 60%;
+         }
+         .error {
+             margin: auto;
+         }
+         .alerta {
+             margin: 100px 0 20px;
+         }
+         .botonEncriptar {
+             margin: 20px 127px;
+         }
+         .botonDesencriptar {
+             margin: 0 110px;
+         }
+         .formulario2 {
+             width: auto;
+             margin: 550px 0 20px auto;
+         }
+         .input-encriptador {
+             width: 60%;
+         }
+         .botonCopiar {
+             position: absolute;
+             right: 127px;
+             top: 800px;
+         }
+         footer {
+             margin-top: 200px;
+         }
+     }
