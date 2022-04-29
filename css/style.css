@@ -51,7 +51,7 @@
          font-size: 20px;
          transition: 1s;
          cursor: pointer;
-         background-color:white;
+        
      }
      
      .botonEncriptar:hover {
@@ -67,7 +67,7 @@
          font-size: 20px;
          transition: 1s;
          cursor: pointer;
-         background-color:white;
+         
      }
      
      .botonDesencriptar:hover {
