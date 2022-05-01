@@ -52,6 +52,7 @@
          transition: 1s;
          cursor: pointer;
           background-color: white;
+          color:black;
      }
      
      .botonEncriptar:hover {
@@ -68,6 +69,7 @@
          transition: 1s;
          cursor: pointer;
            background-color: white;
+           color:black;
      }
      
      .botonDesencriptar:hover {
@@ -106,6 +108,7 @@
          transition: 1s;
          cursor: pointer;
            background-color: white;
+           color:black;
      }
      
      .botonCopiar:hover {
